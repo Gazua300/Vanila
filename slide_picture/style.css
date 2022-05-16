@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    right: -50vw;
+    opacity: 0;
+    transition: 2.5s;
+    width: 500px;
+    height: 500px;
+}

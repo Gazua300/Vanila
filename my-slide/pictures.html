@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pictures.css">
+    <title>Imagens</title>
+</head>
+<body>
+    <header>        
+        <div class="menuIcon">
+            <i class="fas fa-bars" id="navBar" style="font-size:2rem; color:#7f4f1f;"
+            onclick="showNav()"></i>
+            </div>
+            <nav class="menu" id="menu" onmouseleave="hideNav()">
+                <ul>
+                    <a href=""><li>Pernagens</li></a>
+                    <a href=""><li>Temporadas</li></a>
+                    <a href=""><li>História</li></a>
+                    <a href="pictures.html"><li>Imagens</li></a>
+                </ul>
+            </nav>
+        </header>
+    <section>
+        <div class="setas">
+            <i class="fas fa-chevron-left" style="color:goldenrod; font-size: 3rem;
+            opacity: 0.7; cursor: pointer;" onclick="backward()"></i>
+            <i class="fas fa-chevron-right" style="color: goldenrod; font-size: 3rem;
+            opacity: 0.7; cursor: pointer;" onclick="forward()"></i>
+        </div>
+        <div class="pictures" id="pics">
+            <img id="img" class="img" >
+            
+        </div>
+    </section>
+    
+</body>
+    <script src="js/pictures.js"></script>
+</html>

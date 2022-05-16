@@ -1,0 +1,50 @@
+body{
+    background-image: url('https://scontent.fssa20-1.fna.fbcdn.net/v/t39.30808-6/242032773_342742610770913_2123955587614197619_n.png?stp=dst-jpg&_nc_cat=101&ccb=1-6&_nc_sid=19026a&_nc_ohc=9pjsAmjGhFsAX_NVmqx&_nc_ht=scontent.fssa20-1.fna&oh=00_AT_wX3bcBeLS6Z0EhXwFG2M8QxsL-Iy51g8SnGfFiRUezQ&oe=6287C747');
+}
+
+h1{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 5rem;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
+    color: rgb(197, 93, 111);
+    text-shadow: 3px 3px 6px rgb(58, 5, 14);
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin: 10px;
+    cursor: pointer;
+}
+
+#left{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    left: 0vw;
+    box-shadow: 3px 3px 6px;
+}
+
+#center{
+    position: relative;
+    opacity: 0.5;
+    left: 0vw;
+    width: 150px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px; 
+}
+
+#right{
+    position: relative;
+    left: 0vw;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3px 3px 6px;
+}
