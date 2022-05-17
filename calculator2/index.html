@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Gazua Calculator</h1>
+    </header>
+    <section>
+      <div class="background">
+        <div class="calculator">
+          <h3>Calculadora</h3>
+          <p id="res"></p>
+          <table>
+            <tr>
+              <td><button onclick="clean()">C</button></td>
+              <td><button onclick="back()"><</button></td>
+              <td><button onclick="insert('/')">&divide</button></td>
+              <td><button onclick="insert('*')">&times</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insert('7')">7</button></td>
+              <td><button onclick="insert('8')">8</button></td>
+              <td><button onclick="insert('9')">9</button></td>
+              <td><button onclick="insert('-')">-</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insert('4')">4</button></td>
+              <td><button onclick="insert('5')">5</button></td>
+              <td><button onclick="insert('6')">6</button></td>
+              <td><button onclick="insert('+')">+</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insert('1')">1</button></td>
+              <td><button onclick="insert('2')">2</button></td>
+              <td><button onclick="insert('3')">3</button></td>
+              <td rowspan="2"><button class="equal" onclick="calculate()">=</button></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button class="zero" onclick="insert('0')">0</button></td>
+              <td><button onclick="insert('.')">.</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      &copy Gazua
+    </footer>
+  </body>
+  <script src="script.js" charset="utf-8"></script>
+</html>

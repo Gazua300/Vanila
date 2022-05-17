@@ -1,0 +1,34 @@
+body{
+  text-align: center;
+}
+
+.calendar{
+  margin-top: 10vh;
+}
+
+table{
+  margin: auto;
+  font-size: 2rem;
+}
+
+.left, .right{
+  cursor: pointer;
+}
+
+.counter{
+  margin-top: 15vh;
+  font-size: 2rem;
+}
+
+#seconds{
+  font-size: 15pt;
+  margin-left: 5px;
+}
+
+button{
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 45vh;
+}

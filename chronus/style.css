@@ -1,0 +1,39 @@
+body{
+  background: yellow;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20vh;
+}
+
+section{
+  text-align: center;
+}
+
+.chronus{
+  margin-bottom: 5vh;
+}
+
+#seconds{
+  font-size: 2rem;
+}
+#tens{
+  font-size: 2rem;
+}
+
+.start, .stop, .reset{
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  background: goldenrod;
+  border: 1px solid white;
+}
+.start:hover, .stop:hover, .reset:hover{
+  background: whitesmoke;
+}
+
+footer{
+  text-align: center;
+  margin-top: 40vh;
+}

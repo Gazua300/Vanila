@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Watch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Days Counter</h1>
+    </header>
+    <section>
+      <div class="watch">
+        <div class="current">
+          Current time:
+          <span id="hours"></span>
+        </div>
+      </div>
+      <div class="calendar">
+        <table>
+          <tr>
+            <td class="left" onclick="arrowLeft()">&larr;</td>
+            <td id="dom">Dom</td>
+            <td id="seg">Seg</td>
+            <td id="ter">Ter</td>
+            <td id="qua">Qua</td>
+            <td id="qui">Qui</td>
+            <td id="sex">Sex</td>
+            <td id="sab">Sab</td>
+            <td class="right" onclick="arrowRight()">&rarr;</td>
+          </tr>
+        </table>
+      </div>
+      <div class="counter">
+        <span id="hour">00</span>:<span id="minutes">00</span><span id="seconds">00</span><br>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+    </section>
+    <footer>
+      &copy Gazua
+    </footer>
+  </body>
+  <script src="script.js" charset="utf-8"></script>
+</html>
