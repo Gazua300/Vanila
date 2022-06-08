@@ -1,0 +1,19 @@
+body{
+    background-color: #151515
+}
+
+#circle{
+    width: 80vw;
+    margin: auto;
+    background-image: url(img/istockphoto-464589524-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    -webkit-background-clip: text;   
+    color: rgba(0, 0, 0, .15); 
+    transition: 1s ease-in-out;
+}
+#circle:hover{
+    color: whitesmoke
+}
+
