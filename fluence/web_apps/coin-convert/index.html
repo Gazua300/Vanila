@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coins Converter</title>
+</head>
+<body>
+    <header class="head-page">
+        <h1 class="title">Conversor de Moedas</h1>
+    </header>
+    <section class="body-page">
+        <div class="select-container">
+            <div class="select-one">
+                <select data-js="currency-one"></select>
+            </div>
+            <div class="select-two">
+                <select data-js="currency-two"></select>
+            </div>
+            <div class="input-container">
+                <input type="number" class="value-number" data-js="currency-one-times" min="1" value="1">
+                <p data-js="converted-value"></p>
+            </div>
+        </div>
+        <div data-js="alert" class="alert-message" id="errormsg"></div>
+    </section>
+    <footer>
+        &copy; Gazua
+    </footer>
+</body>
+    <script src="App.js"></script>
+</html>

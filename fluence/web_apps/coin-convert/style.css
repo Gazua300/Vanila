@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(90deg, gray, whitesmoke);
+}
+
+.title{
+    text-align: center;
+}
+
+.select-container{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+}
+
+.select-one, .select-two{
+    margin: 10px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 22px;
+    width: 15vw;
+}
+
+.value-number{
+    width: 49px;
+}
+
+.alert-message{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.btn-alert{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20%;
+    text-align: center;
+}
