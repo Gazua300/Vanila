@@ -1,16 +1,16 @@
-const people = [
-    { id: 1, name: 'Nena', age: 58 },
-    { id: 2, name: 'Ronaldinho', age: 27 },
-    { id: 3, name: 'Flamarion', age: 38 },
-    { id: 4, name: 'Dona Ana', age: 89 },
-    { id: 5, name: 'Linda', age: 60 }
+const tvShows = [
+    { name: 'Breaking Bad', releaseYear: 2008 },
+    { name: 'Mr. Robot', releaseYear: 2015 },
+    { name: 'True Dectective', releaseYear: 2014 },
+    { name: 'Hannibal', releaseYear: 2013 },
+    { name: 'House M. D.', releaseYear: 2004 },
+    { name: 'Watchman', releaseYear: 2019 }
 ]
 
-const agesFrenquency = people.reduce((accumulator, { age })=>{
-    accumulator[age] = accumulator[age] + 1 || 1
+const serieNames = tvShows.reduce((accumulator, { releaseYear })=>{
+    accumulator[releaseYear] = accumulator[releaseYear] + 1 || 1
+    
+    return accumulator 
+})
 
-    return accumulator
-
-}, {})
-
-console.log(agesFrenquency)
+console.log(serieNames)
