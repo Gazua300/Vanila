@@ -8,18 +8,18 @@ const errorMsg = document.getElementById('errormsg')
 
 const showAlert = (e)=>{
     const div = document.createElement('div')
-        const button = document.createElement('button')
+    const button = document.createElement('button')
 
-        div.textContent = e.message
-        button.textContent = 'X'
-        button.className = 'btn-alert'
-        div.appendChild(button)
-        
-        errorMsg.insertAdjacentElement('afterbegin', div)
+    div.textContent = e.message
+    button.textContent = 'X'
+    button.className = 'btn-alert'
+    div.appendChild(button)
+    
+    errorMsg.insertAdjacentElement('afterbegin', div)
 
-        button.addEventListener('click', ()=>{
-            div.remove()
-        })
+    button.addEventListener('click', ()=>{
+        div.remove()
+    })
 }
 
 
